@@ -1,5 +1,5 @@
 // URL
-const url = 'https://raw.githubusercontent.com/RahulMuk/CodingTheNews-2025/refs/heads/main/_datasets/artist_data.csv?token=GHSAT0AAAAAAC5YIWRQCGWC4A5SIYUKOZMIZ5BX37Q'
+const url = 'https://raw.githubusercontent.com/RahulMuk/CodingTheNews-2025/refs/heads/main/_datasets/artist_data.csv?token=GHSAT0AAAAAAC5YIWRR5IQIAXFMY5Q4QVZOZ5BZYOA'
 
 // Create a function to parse the CSV into an array
 function parseCSV(data) { 
@@ -34,7 +34,7 @@ function parseCSV(data) {
             obj.path = "img/kungfukenny.webp"
         }
         obj.totalWeeks = Number(obj.song_1_weeks_on_top_100) + Number(obj.song_2_weeks_on_top_100) + Number(obj.song_3_weeks_on_top_100) + Number(obj.song_4_weeks_on_top_100) + Number(obj.song_5_weeks_on_top_100)
-        console.log(obj)
+        //console.log(obj)
         return obj; // Fill the results container with the artist 
     });
     //console.log(res)
@@ -70,8 +70,8 @@ function populateHTML(data){
                 <h2>Hometown: ${artist['hometown']}</h2>
                 <h3>Genre: ${artist['primary_genre']}</h3>
                 <h3>Albums: ${artist['albums_released']}</h3>
-                <h3>Highest Peaks on Billboard: ${artist['song_1_highest_peak']}, ${artist['song_2_highest_peak']}, ${artist['song_3_highest_peak']}, ${artist['song_4_highest_peak']}, ${artist['song_5_highest_peak']}</h3>
                 <h3>Total Weeks on Top 100: ${artist['totalWeeks']}</h3>
+                <h3>Highest Peaks: ${artist['song_1_highest_peak']}, ${artist['song_2_highest_peak']}, ${artist['song_3_highest_peak']}, ${artist['song_4_highest_peak']}, ${artist['song_5_highest_peak']}</h3>
             </div>
             
         `;
