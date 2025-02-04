@@ -1,0 +1,121 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: blanchedalmond;
+    margin: 0;
+}
+
+img{
+   width: 60%;
+   height: auto; 
+   margin: auto;
+}
+
+.img-container{
+    text-align: center;
+}
+
+.artist{
+    display: flex;
+    flex-direction: row;
+    margin: 6rem 3rem;
+    text-wrap: wrap;
+}
+
+.info{
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+}
+
+h1{
+    font-size: 72px;
+}
+h2{
+    font-size: 50px;
+}
+h3{
+    font-size: 30px;
+}
+
+/* @media only screen and (min-width: 600px){
+    .artist{
+        flex-direction: column;
+    }
+    img{
+        width: 100%;
+    }
+} */
+
+@media only screen and (max-width: 768px){
+    .artist{
+        flex-direction: column;
+    }
+    img{
+        width: 100%;
+        margin: 1rem;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .artist{
+        flex-direction: column;
+    }
+    img{
+        width: 100%;
+        margin: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1400px){
+    img{
+        width: 60%;
+    }
+}
+
+
+/* @media only screen and (max-width: 600px){
+    .first-part-text{
+        width: 80%;
+    }
+    
+    
+    .second-part-content{
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .first-part-text{
+        width: 70%;
+    }
+    h1{
+        font-size: 4.5em;
+    }
+    h3{
+        font-size: 2em;
+    }
+    h5, h6{
+        font-size: 1em;
+    }
+    .second-part-content{
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .first-part-text{
+        width: 60%;
+    }
+    .second-part-content{
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .first-part-text{
+        width: 50%;
+    }
+    .second-part-content{
+        width: 50%;
+    }
+} */
