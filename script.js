@@ -1,5 +1,5 @@
 // URL
-const url = 'https://raw.githubusercontent.com/RahulMuk/CodingTheNews-2025/refs/heads/main/_datasets/artist_data.csv?token=GHSAT0AAAAAAC5YIWRR5IQIAXFMY5Q4QVZOZ5BZYOA'
+const url = 'https://raw.githubusercontent.com/RahulMuk/CodingTheNews-2025/refs/heads/main/_datasets/artist_data.csv?token=GHSAT0AAAAAAC5YIWRQLFGOKSW4OHCRQUXGZ5HTXFQ'
 
 // Create a function to parse the CSV into an array
 function parseCSV(data) { 
